@@ -91,19 +91,22 @@ body {
 }
 
 .sign-in .title {
+    /* position: fixed; */
     position: relative;
     width: 11rem;
     display: flex;
     flex-direction: row;
     justify-self: center;
-    left: 1%;
+    left:2%;
+    /* align-self: center; */
     color: var(--material-theme-sys-light-high-contrast-on-surface, #000);
     font-weight: var(--lighter-Font-Weight);
     line-height: 3rem;
     top: 4%;
     text-align: center;
-    /*clamp calc for font-size: clamp*/
+    /*clamp calc for font-size: clamp(12px:0.75rem, 5vw, 20px:1.25rem);    */
     font-size: clamp(2rem, 12vw, 3.2rem);
+    background-color: red;
 }
 
 .sign-in .container {
@@ -155,6 +158,8 @@ body {
     position: relative;
     top: 23rem;
     left: 10rem;
+    height: 24px;
+    width: 24px;
     background: transparent;
 }
 
@@ -162,7 +167,7 @@ body {
     position: fixed;
     width: 22rem;
     height: 3rem;
-    border-radius: 0.25rem;
+    border-radius: 3px;
     top: 70%;
     background: var(--material-theme-sys-light-high-contrast-primary, #0D2800);
     color: var(--material-theme-sys-light-high-contrast-on-primary, #FFF);
@@ -178,7 +183,8 @@ body {
 
 .register-as-admin .title {
     position: fixed;
-    font-size: clamp(2rem, 9vw, 3.2rem);
+    /* font-size: clamp(2rem, 9vw, 3.2rem); */
+    /* font-size: clamp(2rem, 8vw, 3rem); */
     text-align: center;
     width: 45%;
     max-width: 37.5rem;
@@ -268,6 +274,7 @@ body {
     color: var(--material-theme-sys-light-high-contrast-on-primary, #FFF);
 }
 
+
 /* student home page (page-6)*/
 .student-home-page {
     width: 100%;
@@ -295,6 +302,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    /* background-color: yellow; */
 }
 
 .student-home-page .container .btns {
@@ -305,9 +313,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 52%;
-    max-width:45%;
     border-radius: 1.5rem;
-    overflow: auto;
+    overflow: hidden;
     background: transparent;
 }
-

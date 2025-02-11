@@ -293,8 +293,10 @@ body {
     width: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    /* text-align: center; */
+    /* background-color: yellow; */
 }
 
 .student-home-page .container .btns {
@@ -305,9 +307,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 52%;
-    max-width:45%;
     border-radius: 1.5rem;
-    overflow: auto;
+    overflow: hidden;
     background: transparent;
 }
-

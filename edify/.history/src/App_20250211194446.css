@@ -295,6 +295,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    /* background-color: yellow; */
 }
 
 .student-home-page .container .btns {

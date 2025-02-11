@@ -11,7 +11,7 @@ function StudentHomePage() {
             <div className="container">
 
                 <button className="btns btns-1">
-                    <span>View Profile</span>
+                    <span>View &nbsp; &nbsp;Profile</span>
                 </button>
 
                 <button className="btns btns-1">
@@ -20,7 +20,6 @@ function StudentHomePage() {
 
                 <button className="btns btns-1">
                     <span>View Reports</span>
-
                 </button>
 
                 <button className="btns btns-1">

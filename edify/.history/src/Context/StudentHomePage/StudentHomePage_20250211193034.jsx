@@ -20,7 +20,6 @@ function StudentHomePage() {
 
                 <button className="btns btns-1">
                     <span>View Reports</span>
-
                 </button>
 
                 <button className="btns btns-1">
