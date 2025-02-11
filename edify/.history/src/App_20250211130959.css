@@ -314,4 +314,19 @@ body {
     border-radius: 1.5rem;
     overflow: hidden;
     background: transparent;
+
+    /* position: relative; */
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52%;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    background: transparent;
+}
+
+.student-home-page .container .btns span {
+    display: block;
+    text-align: center;
 }

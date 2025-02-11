@@ -23,7 +23,7 @@ function StudentHomePage() {
                 </button>
 
                 <button className="btns btns-1">
-                    <span>Chat with Classmates</span>
+                    <span>Chat with classmates</span>
                 </button>
 
             </div>

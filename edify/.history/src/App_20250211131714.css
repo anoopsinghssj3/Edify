@@ -314,4 +314,9 @@ body {
     border-radius: 1.5rem;
     overflow: hidden;
     background: transparent;
+    word-break: break-word; }
+
+.student-home-page .container .btns span {
+    display: block;
+    text-align: center;
 }

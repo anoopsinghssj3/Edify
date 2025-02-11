@@ -315,3 +315,9 @@ body {
     overflow: hidden;
     background: transparent;
 }
+
+.student-home-page .container .btns span {
+    display: block;
+    word-break: normal;
+    text-align: center;
+}

@@ -315,3 +315,8 @@ body {
     overflow: hidden;
     background: transparent;
 }
+
+.student-home-page .container .btns {
+
+    display: block;
+}

@@ -305,7 +305,7 @@ body {
 
 .student-home-page .container .btns {
     position: relative;
-    min-height: 16%;
+    min-height: 6vh;
     text-align: center;
     display: flex;
     align-items: center;
@@ -314,4 +314,9 @@ body {
     border-radius: 1.5rem;
     overflow: hidden;
     background: transparent;
+}
+
+.student-home-page .container .btns {
+    display: block;
+    text-align: center;
 }

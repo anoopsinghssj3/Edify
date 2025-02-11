@@ -304,12 +304,18 @@ body {
 }
 
 .student-home-page .container .btns {
+    /* position: relative;
+    min-height:5%;
+    width: 52%;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    background: transparent; */
+
     position: relative;
-    min-height: 16%;
-    text-align: center;
+    height: 5vh; /* Fixed height */
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: center; /* Centers text horizontally */
+    align-items: center; /* Centers text vertically */
     width: 52%;
     border-radius: 1.5rem;
     overflow: hidden;
