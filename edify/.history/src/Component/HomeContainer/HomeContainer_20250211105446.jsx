@@ -2,7 +2,6 @@ import React from 'react'
 import SignInAs from '../../Context/SignInAs/SignInAs'
 import SignIn from '../../Context/SignIn/SignIn'
 import RegisterAsAdmin from '../../Context/RegisterAsAdmin/RegisterAsAdmin'
-import StudentHomePage from '../../Context/StudentHomePage/StudentHomePage'
 
 function HomeContainer() {
     return (
@@ -10,7 +9,6 @@ function HomeContainer() {
             {/* <SignInAs /> */}
             {/* <SignIn /> */}
             {/* <RegisterAsAdmin /> */}
-            <StudentHomePage />
 
         </div>
     )

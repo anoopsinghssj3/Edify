@@ -293,14 +293,14 @@ body {
 
 .student-home-page .container {
     position: fixed;
-    top: clamp(25%, 30vh, 95%);
-    height: 40%;
+    /* top: 33%; */
+    top: clamp(35%, 20vh, 20%);height: 40%;
     width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    /* background-color: yellow; */
+    background-color: yellow;
 }
 
 .student-home-page .container .btns {

@@ -7,10 +7,10 @@ import StudentHomePage from '../../Context/StudentHomePage/StudentHomePage'
 function HomeContainer() {
     return (
         <div className="home-container">
-            {/* <SignInAs /> */}
+            <SignInAs />
             {/* <SignIn /> */}
             {/* <RegisterAsAdmin /> */}
-            <StudentHomePage />
+            {/* <StudentHomePage /> */}
 
         </div>
     )

@@ -49,11 +49,13 @@ body {
 .sign-in-as .title {
     position: fixed;
     /* font-size: clamp(2rem, 12vw, 3rem); */
+    
     font-size: clamp(2rem, 8vw, 3.2rem);
     text-align: center;
-    width: 35%;
-    max-width: 14.5rem;
+    width: 45%;
+    max-width: 37.5rem;
     min-width: 6.75rem;
+
 }
 
 .sign-in-as .container {
@@ -103,7 +105,7 @@ body {
     text-align: center;
     /*clamp calc for font-size: clamp(12px:0.75rem, 5vw, 20px:1.25rem);    */
     /* font-size: clamp(2rem, 12vw, 3.2rem); */
-
+    
     /* font-size: clamp(2rem, 8vw, 3rem); */
 }
 
@@ -273,7 +275,7 @@ body {
 }
 
 
-/* student home page (page-6)*/
+/* student home page */
 .student-home-page {
     width: 100%;
     height: 100%;
@@ -288,26 +290,5 @@ body {
     width: 45%;
     max-width: 37.5rem;
     min-width: 6.75rem;
-}
 
-
-.student-home-page .container {
-    position: fixed;
-    top: clamp(25%, 30vh, 95%);
-    height: 40%;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    /* background-color: yellow; */
-}
-
-.student-home-page .container .btns {
-    position: relative;
-    height: 12%;
-    width: 52%;
-    border-radius: 1.5rem;
-    overflow: hidden;
-    background: transparent;
 }

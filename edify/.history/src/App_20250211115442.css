@@ -293,7 +293,7 @@ body {
 
 .student-home-page .container {
     position: fixed;
-    top: clamp(25%, 30vh, 95%);
+    top: clamp(25%, 32vh, 95%);
     height: 40%;
     width: 60%;
     display: flex;
