@@ -810,6 +810,7 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .academic-reports .container {
@@ -817,7 +818,7 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 
 .academic-reports .card {
@@ -826,7 +827,7 @@ body {
     border-radius: 10px;
     width: 350px;
     text-align: center;
-    border: none;
+    border-none;
 }
 
 .academic-reports .title {
@@ -850,34 +851,29 @@ body {
 }
 
 .academic-reports select {
-    position: relative;
-    left: 6.75rem;
-    width: 30%;
+    width: 100%;
     padding: 8px;
     font-size: 16px;
     margin-bottom: 15px;
+    border: 1px solid rgb(223, 210, 210);
     border-radius: 5px;
     cursor: pointer;
-    background:transparent;
 }
 
 .academic-reports .test-list {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 10px;
 }
 
 .academic-reports .test-btn {
-    position: relative;
-    top:1rem;
-    width: 65%;
-    padding: 5px;
+    width: 100%;
+    padding: 10px;
     font-size: 16px;
     font-weight: bold;
     border: 1px solid black;
-    border-radius: 1.5rem;
-    background: transparent;
+    border-radius: 20px;
+    background: white;
     cursor: pointer;
 }
 
@@ -894,7 +890,4 @@ body {
     margin-bottom: 10px;
     color: black;
     width: 0.5rem;
-    position: relative;
-    right: 2rem;
-    top: 1rem;
 }
