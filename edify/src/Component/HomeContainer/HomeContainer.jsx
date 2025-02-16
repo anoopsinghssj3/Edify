@@ -10,7 +10,7 @@ function HomeContainer() {
             {/* <SignInAs /> */}
             {/* <SignIn /> */}
             {/* <RegisterAsAdmin /> */}
-            <StudentHomePage />
+            {/* <StudentHomePage /> */}
 
         </div>
     )
