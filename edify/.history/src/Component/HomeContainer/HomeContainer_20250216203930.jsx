@@ -20,21 +20,15 @@ function HomeContainer() {
             {/* <SignIn /> */}
             {/* <RegisterAsAdmin /> */}
             {/* <StudentHomePage /> */}
-
             {/* <StudentProfile /> */}
             {/* <Attendance /> */}
             {/* <VariousColorRoles /> */}
             {/* <StudentAttendanceSummary /> */}
             {/* <AcademicReports /> */}
             {/* <AcademicReportsMarks /> */}
-<<<<<<< Updated upstream
-            // <ClassTeacherHomePage />
-
-=======
             {/* <ClassTeacherHomePage /> */}
             {/* <StudentsProfile/> */}
             <AddStudent />
->>>>>>> Stashed changes
         </div>
     )
 }

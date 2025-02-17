@@ -1256,7 +1256,7 @@ body {
     width: 100%;
 }
 
-.add-student .input {
+.add-student .input-type {
     height: 2.5rem;
     border: 0.0625rem solid black;
 }

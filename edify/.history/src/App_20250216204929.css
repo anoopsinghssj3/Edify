@@ -1248,7 +1248,7 @@ body {
 }
 
 /* .add-student .input, */
-.add-student .input {
+.add-student .input-type {
     padding: 0.5rem;
     border: 0.0625rem solid #ccc;
     border-radius: 0.3125rem;
@@ -1256,7 +1256,7 @@ body {
     width: 100%;
 }
 
-.add-student .input {
+.add-student .input-type {
     height: 2.5rem;
     border: 0.0625rem solid black;
 }

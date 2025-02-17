@@ -11,7 +11,6 @@ import AcademicReports from '../../Context/AcademicReports/AcademicReports'
 import AcademicReportsMarks from '../../Context/AcademicReportsMarks/AcademicReportsMarks'
 import ClassTeacherHomePage from '../../Context/ClassTeacherHomePage/ClassTeacherHomePage'
 import StudentsProfile from '../../Context/StudentsProfile/StudentsProfile'
-import AddStudent from '../../Context/AddStudent/AddStudent'
 
 function HomeContainer() {
     return (
@@ -20,21 +19,14 @@ function HomeContainer() {
             {/* <SignIn /> */}
             {/* <RegisterAsAdmin /> */}
             {/* <StudentHomePage /> */}
-
             {/* <StudentProfile /> */}
             {/* <Attendance /> */}
             {/* <VariousColorRoles /> */}
             {/* <StudentAttendanceSummary /> */}
             {/* <AcademicReports /> */}
             {/* <AcademicReportsMarks /> */}
-<<<<<<< Updated upstream
-            // <ClassTeacherHomePage />
-
-=======
             {/* <ClassTeacherHomePage /> */}
             {/* <StudentsProfile/> */}
-            <AddStudent />
->>>>>>> Stashed changes
         </div>
     )
 }

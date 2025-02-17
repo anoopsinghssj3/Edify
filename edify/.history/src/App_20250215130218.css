@@ -1121,20 +1121,18 @@ body {
 .students-profile {
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 100vh;
 }
 
 .students-profile .container {
     max-width: 800px;
-    width: 100%;
+    margin: 50px auto;
     padding: 20px;
     border-radius: 5px;
 }
 
 .students-profile .title {
     font-size: clamp(2.25rem, 2.5vw, 3rem);
-
+    width: 45%;
     position: relative;
     display: flex;
     justify-self: center;
@@ -1145,11 +1143,8 @@ body {
 
 .students-profile .profile-header {
     display: flex;
-    justify-self: center;
     justify-content: space-between;
     margin-bottom: 20px;
-    font-size: clamp(1.25rem, 3vw, 2rem);
-    width: 80%;
 }
 
 .students-profile .student-list {
@@ -1160,12 +1155,16 @@ body {
 .students-profile .student-list th,
 .student-list td {
     padding: 10px;
-    border: 1px solid black;
-    text-align: center;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.students-profile .student-list th {
+    background-color: #f2f2f2;
 }
 
 .students-profile .view-button {
-    background: transparent;
+    background-color: #4caf50;
     color: white;
     padding: 5px 10px;
     border: none;
@@ -1175,146 +1174,4 @@ body {
 
 .students-profile .view-button:hover {
     background-color: #45a049;
-}
-
-
-/* add student page-22 */
-.add-student {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
-}
-
-.add-student .sub-container .title {
-    position: relative;
-    display: flex;
-    justify-self: center;
-    font-size: clamp(2rem, 9vw, 3rem);
-    text-align: center;
-    width: 60%;
-    max-width: 37.5rem;
-    min-width: 8.75rem;
-    bottom: 1.4375rem;
-    left: 0.9375rem;
-}
-
-.add-student .container {
-    position: relative;
-    background: transparent;
-    padding: 20px;
-    width: clamp(250px, 80vw, 500px);
-    border-radius: 0.625rem;
-    top: 7rem;
-    border: 0.0625rem solid black;
-}
-
-.add-student .sub-container div {
-    text-align: center;
-}
-
-.add-student .profile-pic {
-    display: flex;
-    justify-content: center;
-}
-
-.add-student .profile-pic img {
-    position: relative;
-    width: 22vw;
-    /* Uses 25% of viewport width for small screens */
-    height: 22vw;
-    /* Ensures the height matches the width (keeping it square) */
-    max-width: 8.125rem;
-    /* Limits the size for larger screens */
-    max-height: 8.125rem;
-    /* Same as max-width, limiting height */
-    bottom: 1.25rem;
-    border-radius: 50%;
-    background: lightgray;
-}
-
-.add-student form {
-    display: flex;
-    flex-direction: column;
-}
-
-.add-student label {
-    margin-top: 0.625rem;
-    font-weight: bold;
-    position: relative;
-}
-
-/* .add-student .input, */
-.add-student .input {
-    padding: 0.5rem;
-    border: 0.0625rem solid #ccc;
-    border-radius: 0.3125rem;
-    margin-top: 0.3125rem;
-    width: 100%;
-}
-
-.add-student .input {
-    height: 2.5rem;
-    border: 0.0625rem solid black;
-}
-
-.add-student .row {
-    display: flex;
-    justify-content: space-between;
-}
-
-.add-student .row div {
-    width: 48%;
-}
-
-.add-student .checkbox {
-    display: flex;
-    align-items: center;
-    margin-top: 0.3125rem;
-}
-
-.add-student .checkbox .input-type {
-    margin-right: 0.3125rem;
-}
-
-.add-student button {
-    background-color: #2c6db6;
-    color: white;
-    border: none;
-    padding: 0.625rem;
-    margin-top: 0.9375rem;
-    border-radius: 0.3125rem;
-    cursor: pointer;
-}
-
-.add-student .container .same-as-parent-i,
-.add-student .container .same-as-parent-l {
-    position: relative;
-    bottom: 4.9375rem;
-}
-
-.add-student .container .same-as-parent-i {
-    left: 3.4375rem;
-}
-
-.add-student .container .same-as-parent-l {
-    right: 3.125rem;
-    width: 6.25rem;
-    font-size: 0.625rem;
-}
-
-.add-student button:hover {
-    background-color: #1d4f87;
-}
-
-.add-student .back-arrow {
-    text-decoration: none;
-    font-size: 1.5rem;
-    display: block;
-    text-align: left;
-    margin-bottom: 0.625rem;
-    color: black;
 }
