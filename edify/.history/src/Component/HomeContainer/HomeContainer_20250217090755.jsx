@@ -28,7 +28,7 @@ function HomeContainer() {
             {/* <AcademicReportsMarks /> */}
              {/* <ClassTeacherHomePage /> */}
             {/* <StudentsProfile/> */}
-            <AddStudent />
+            {/* <AddStudent /> */}
         </div>
     )
 }

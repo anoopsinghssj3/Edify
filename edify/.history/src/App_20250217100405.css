@@ -1281,7 +1281,7 @@ body {
 }
 
 .add-student button {
-    display: flex;
+    position: relative;
     justify-self: center;
     width: 80%;
     color: white;
@@ -1289,7 +1289,6 @@ body {
     padding: 10px;
     margin-top: 15px;
     border-radius: 3px;
-    justify-content: center;
     background: var(--material-theme-sys-light-high-contrast-primary, #0D2800); cursor: pointer;
 }
 

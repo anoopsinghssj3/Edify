@@ -24,11 +24,12 @@ function HomeContainer() {
             {/* <Attendance /> */}
             {/* <VariousColorRoles /> */}
             {/* <StudentAttendanceSummary /> */}
-            {/* <AcademicReports /> */}
+            <AcademicReports />
             {/* <AcademicReportsMarks /> */}
-             {/* <ClassTeacherHomePage /> */}
+            {/*  <ClassTeacherHomePage /> */}
+            {/* <ClassTeacherHomePage /> */}
             {/* <StudentsProfile/> */}
-            <AddStudent />
+            {/* <AddStudent /> */}
         </div>
     )
 }

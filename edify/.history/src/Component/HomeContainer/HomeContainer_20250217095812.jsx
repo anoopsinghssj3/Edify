@@ -20,7 +20,7 @@ function HomeContainer() {
             {/* <SignIn /> */}
             {/* <RegisterAsAdmin /> */}
             {/* <StudentHomePage /> */}
-            {/* <StudentProfile /> */}
+            <StudentProfile />
             {/* <Attendance /> */}
             {/* <VariousColorRoles /> */}
             {/* <StudentAttendanceSummary /> */}
@@ -28,7 +28,7 @@ function HomeContainer() {
             {/* <AcademicReportsMarks /> */}
              {/* <ClassTeacherHomePage /> */}
             {/* <StudentsProfile/> */}
-            <AddStudent />
+            {/* <AddStudent /> */}
         </div>
     )
 }

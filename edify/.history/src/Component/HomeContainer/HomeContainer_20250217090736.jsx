@@ -26,9 +26,10 @@ function HomeContainer() {
             {/* <StudentAttendanceSummary /> */}
             {/* <AcademicReports /> */}
             {/* <AcademicReportsMarks /> */}
-             {/* <ClassTeacherHomePage /> */}
+             <ClassTeacherHomePage />
+            {/* <ClassTeacherHomePage /> */}
             {/* <StudentsProfile/> */}
-            <AddStudent />
+            {/* <AddStudent /> */}
         </div>
     )
 }

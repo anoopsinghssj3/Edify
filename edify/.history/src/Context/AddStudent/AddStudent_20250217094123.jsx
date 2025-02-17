@@ -58,15 +58,14 @@ function AddStudent() {
                         <input type="checkbox" id="same-as-parent" className="same-as-parent-i" />
                         <label for="same-as-parent" className="same-as-parent-l" >Same as parent</label>
                     </div>
-                    <div className="sub-container-2">
-                        <label for="username">Username</label>
+                    <div className="sub-container-2">                   <label for="username">Username</label>
                         <input type="text" id="username" placeholder="riya123" />
 
                         <label for="password">Password</label>
                         <input type="password" id="password" placeholder="riya@@1220" />
 
-                        <button type="submit">Submit</button>
-                    </div>
+                        <button type="submit">Submit</button></div>
+
                 </form>
             </div>
         </div >

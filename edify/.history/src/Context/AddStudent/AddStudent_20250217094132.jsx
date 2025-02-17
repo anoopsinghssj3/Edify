@@ -65,8 +65,7 @@ function AddStudent() {
                         <label for="password">Password</label>
                         <input type="password" id="password" placeholder="riya@@1220" />
 
-                        <button type="submit">Submit</button>
-                    </div>
+                        <button type="submit">Submit</button></div>
                 </form>
             </div>
         </div >

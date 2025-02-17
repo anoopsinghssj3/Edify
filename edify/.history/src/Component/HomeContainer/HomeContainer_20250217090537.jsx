@@ -26,9 +26,14 @@ function HomeContainer() {
             {/* <StudentAttendanceSummary /> */}
             {/* <AcademicReports /> */}
             {/* <AcademicReportsMarks /> */}
-             {/* <ClassTeacherHomePage /> */}
+            {/*  <ClassTeacherHomePage /> */}
+            {/* <ClassTeacherHomePage /> */}
             {/* <StudentsProfile/> */}
             <AddStudent />
+            {/* <ClassTeacherHomePage /> */}
+            {/* <StudentsProfile/> */}
+            <AddStudent />
+>>>>>>> Stashed changes
         </div>
     )
 }

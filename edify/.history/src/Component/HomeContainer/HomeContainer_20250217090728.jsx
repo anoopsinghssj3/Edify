@@ -25,10 +25,11 @@ function HomeContainer() {
             {/* <VariousColorRoles /> */}
             {/* <StudentAttendanceSummary /> */}
             {/* <AcademicReports /> */}
-            {/* <AcademicReportsMarks /> */}
-             {/* <ClassTeacherHomePage /> */}
+            <AcademicReportsMarks />
+            {/*  <ClassTeacherHomePage /> */}
+            {/* <ClassTeacherHomePage /> */}
             {/* <StudentsProfile/> */}
-            <AddStudent />
+            {/* <AddStudent /> */}
         </div>
     )
 }

@@ -55,18 +55,17 @@ function AddStudent() {
                     <label for="student-mobile">Mobile (Student)</label>
                     <input type="text" id="student-mobile" placeholder="7487347924" />
                     <div class="checkbox">
-                        <input type="checkbox" id="same-as-parent" className="same-as-parent-i" />
-                        <label for="same-as-parent" className="same-as-parent-l" >Same as parent</label>
+                        <input type="checkbox" id="same-as-parent"  className="same-as-parent" />
+                        <label for="same-as-parent">Same as parent</label>
                     </div>
-                    <div className="sub-container-2">
-                        <label for="username">Username</label>
-                        <input type="text" id="username" placeholder="riya123" />
 
-                        <label for="password">Password</label>
-                        <input type="password" id="password" placeholder="riya@@1220" />
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="riya123" />
 
-                        <button type="submit">Submit</button>
-                    </div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="riya@@1220" />
+
+                    <button type="submit">Submit</button>
                 </form>
             </div>
         </div >
