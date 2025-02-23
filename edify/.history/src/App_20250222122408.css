@@ -1811,27 +1811,16 @@ body {
 }
 
 .add-report-of-exam th,
-.add-report-of-exam td,
-.add-report-of-exam input {
+.add-report-of-exam td, {
     padding: 4px;
     text-align: center;
 }
-
-.add-report-of-exam th,
-.add-report-of-exam input {
+.add-report-of-exam th {
     background: transparent;
 }
-
-.add-report-of-exam input {
-    position: relative;
-    width: 100%;
-    border: none;
-}
-
 .add-report-of-exam .total-row {
     background: transparent;
 }
-
 .add-report-of-exam .grade-row {
     background: transparent;
     width: 100%;
@@ -1842,7 +1831,6 @@ body {
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
-
 .add-report-of-exam button {
     margin-top: 20px;
     font-size: 14px;
@@ -1856,11 +1844,9 @@ body {
     color: white;
     padding: 4px 12px;
 }
-
 .add-report-of-exam button:hover {
     background: darkblue;
 }
-
 .add-report-of-exam .back-arrow {
     text-decoration: none;
     position: relative;

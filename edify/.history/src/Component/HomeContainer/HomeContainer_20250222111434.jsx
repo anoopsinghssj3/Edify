@@ -37,8 +37,8 @@ function HomeContainer() {
             {/* <SelectDateForAttendance /> */}
             {/* <TakeAttendance /> */}
             {/* <SelectStudentAddReport/> */}
-            {/* <AddReport/> */}
-            <AddReportofExam />
+            <AddReport/>
+            {/* <AddReportofExam /> */}
         </div>
     )
 }

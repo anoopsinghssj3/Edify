@@ -1826,6 +1826,7 @@ body {
     position: relative;
     width: 100%;
     border: none;
+    /* text-align: left; */
 }
 
 .add-report-of-exam .total-row {

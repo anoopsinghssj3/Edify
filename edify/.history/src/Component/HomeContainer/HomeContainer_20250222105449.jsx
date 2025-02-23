@@ -30,7 +30,7 @@ function HomeContainer() {
             {/* <VariousColorRoles /> */}
             {/* <StudentAttendanceSummary /> */}
             {/* <AcademicReports /> */}
-            {/* <AcademicReportsMarks /> */}
+            <AcademicReportsMarks />
             {/* <ClassTeacherHomePage /> */}
             {/* <StudentsProfile/> */}
             {/* <AddStudent /> */}

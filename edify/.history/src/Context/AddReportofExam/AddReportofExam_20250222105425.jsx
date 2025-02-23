@@ -1,22 +1,19 @@
 import React from 'react'
-import '../../App.css'
 
-function AcademicReportsMarks() {
-    // Academic report of Exam (page-12,13,14)
+function AddReportofExam() {
+  return (
+    // Add Report of Exam (page-29,30,31)
 
-    return (
-        <div className="academic-reports-marks">
+    <div className="add-report-of-exam">
 
-            <div class="container">
+<div class="container">
                 <div class="card">
                     <div className="sub-card">
                         <a href="#" class="back-arrow">&larr;</a>
                         <div className='title'> Academic Reports</div>
                         <div className='sub-title'>Periodic Test - 1</div>
                         <div ><strong>Name:</strong> Abhinav Pandey</div>
-                        <div className="cs">
-                            <div><strong>Class:</strong> 12 &nbsp;</div><div> <strong>Section:</strong> A</div>
-                        </div>
+                        <p><strong>Class:</strong> 12 &nbsp; <strong>Section:</strong> A</p>
                     </div>
 
                     <table>
@@ -59,8 +56,10 @@ function AcademicReportsMarks() {
                 <button onclick="window.print()">Print</button>
             </div>
 
-        </div >
-    )
+
+
+    </div>
+  )
 }
 
-export default AcademicReportsMarks
+export default AddReportofExam

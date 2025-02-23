@@ -816,7 +816,7 @@ body {
     color: black;
 }
 
-/* academic reports (page-11)*/
+/* academic reports (page-12)*/
 .academic-reports {
     width: 100vw;
     height: 100vh;
@@ -925,27 +925,17 @@ body {
 .academic-reports-marks .container {
     width: 90%;
     max-width: 800px;
-    padding: 8px;
+    padding: 20px;
     text-align: center;
     border: 1px solid black;
     border-radius: 8px;
 }
 
+
 .academic-reports-marks .container .sub-card {
     border: 1px solid black;
     border-bottom: 0 solid black;
 }
-
-.academic-reports-marks .container .card .sub-card .cs {
-    top: 0.75rem;
-    position: relative;
-    justify-self: center;
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 
 .academic-reports-marks .container .sub-card div,
 .academic-reports-marks .container .sub-card p {
@@ -964,7 +954,6 @@ body {
 .academic-reports-marks .card .title {
     margin-bottom: 10px;
     font-size: clamp(2.25rem, 2.5vw, 3rem);
-    width: 100%;
 }
 
 .academic-reports-marks .card .sub-title {
@@ -1038,7 +1027,7 @@ body {
     font-size: 24px;
     display: block;
     text-align: left;
-    top: 1.25rem;
+    margin-bottom: 10px;
     color: black;
 }
 
@@ -1656,8 +1645,8 @@ body {
     font-weight: bold;
 }
 
-
 /* add report page-28 */
+
 .add-report {
     display: flex;
     justify-content: center;
@@ -1706,8 +1695,7 @@ body {
     bottom: 1.25rem;
     border-radius: 5px;
     border: 1px solid black;
-    background: transparent;
-    text-align: center;
+    background:transparent;
 }
 
 .add-report .report-btn-container {
@@ -1721,153 +1709,11 @@ body {
     margin: 5px 0;
     border-radius: 20px;
     border: 1px solid black;
-    background: transparent;
+    background:transparent;
     cursor: pointer;
     font-size: 16px;
 }
 
 .add-report .report-btn:hover {
     background: #f0f0f0;
-}
-
-
-/* add report of exam page-29,30,31 */
-.add-report-of-exam {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    height: fit-content;
-    top: 1%;
-    margin-bottom: 2%;
-}
-
-.add-report-of-exam .container {
-    width: 90%;
-    max-width: 800px;
-    padding: 8px;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 8px;
-}
-
-.add-report-of-exam .container .sub-card {
-    border: 1px solid black;
-    border-bottom: 0 solid black;
-}
-
-.add-report-of-exam .container .card .sub-card .cs {
-    top: 0.75rem;
-    position: relative;
-    justify-self: center;
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.add-report-of-exam .container .sub-card div,
-.add-report-of-exam .container .sub-card p {
-    position: relative;
-    bottom: 1.5rem;
-    height: 5rem;
-    height: fit-content;
-}
-
-.add-report-of-exam .card {
-    position: relative;
-    background: transparent;
-    height: fit-content;
-}
-
-.add-report-of-exam .card .title {
-    margin-bottom: 10px;
-    font-size: clamp(2.25rem, 2.5vw, 3rem);
-    width: 100%;
-}
-
-.add-report-of-exam .card .sub-title {
-    font-size: clamp(2rem, 2.5vw, 2.5rem);
-}
-
-.add-report-of-exam p {
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-
-.add-report-of-exam table {
-    position: relative;
-    width: 100%;
-    border-collapse: collapse;
-    /* bottom: 1rem; */
-    margin-bottom: 0;
-}
-
-.add-report-of-exam table,
-.add-report-of-exam th,
-.add-report-of-exam td {
-    border: 1px solid #000;
-}
-
-.add-report-of-exam th,
-.add-report-of-exam td,
-.add-report-of-exam input {
-    padding: 4px;
-    text-align: center;
-}
-
-.add-report-of-exam th,
-.add-report-of-exam input {
-    background: transparent;
-}
-
-.add-report-of-exam input {
-    position: relative;
-    width: 100%;
-    border: none;
-}
-
-.add-report-of-exam .total-row {
-    background: transparent;
-}
-
-.add-report-of-exam .grade-row {
-    background: transparent;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 39% 86% auto;
-    border-bottom: 1px solid black;
-    padding: 4px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-}
-
-.add-report-of-exam button {
-    margin-top: 20px;
-    font-size: 14px;
-    cursor: pointer;
-    border: 2px solid black;
-    border-radius: 1.5rem;
-    background: var(--material-theme-sys-light-high-contrast-primary, #0D2800);
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    color: white;
-    padding: 4px 12px;
-}
-
-.add-report-of-exam button:hover {
-    background: darkblue;
-}
-
-.add-report-of-exam .back-arrow {
-    text-decoration: none;
-    position: relative;
-    left: 5px;
-    font-size: 24px;
-    display: block;
-    text-align: left;
-    top: 1.25rem;
-    color: black;
 }

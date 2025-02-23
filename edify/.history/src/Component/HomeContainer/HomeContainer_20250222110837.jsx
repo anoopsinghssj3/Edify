@@ -30,7 +30,7 @@ function HomeContainer() {
             {/* <VariousColorRoles /> */}
             {/* <StudentAttendanceSummary /> */}
             {/* <AcademicReports /> */}
-            {/* <AcademicReportsMarks /> */}
+            <AcademicReportsMarks />
             {/* <ClassTeacherHomePage /> */}
             {/* <StudentsProfile/> */}
             {/* <AddStudent /> */}
@@ -38,7 +38,7 @@ function HomeContainer() {
             {/* <TakeAttendance /> */}
             {/* <SelectStudentAddReport/> */}
             {/* <AddReport/> */}
-            <AddReportofExam />
+            {/* <AddReportofExam /> */}
         </div>
     )
 }

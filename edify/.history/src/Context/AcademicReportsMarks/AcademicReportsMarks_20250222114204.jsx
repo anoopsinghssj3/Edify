@@ -2,8 +2,6 @@ import React from 'react'
 import '../../App.css'
 
 function AcademicReportsMarks() {
-    // Academic report of Exam (page-12,13,14)
-
     return (
         <div className="academic-reports-marks">
 
@@ -15,7 +13,7 @@ function AcademicReportsMarks() {
                         <div className='sub-title'>Periodic Test - 1</div>
                         <div ><strong>Name:</strong> Abhinav Pandey</div>
                         <div className="cs">
-                            <div><strong>Class:</strong> 12 &nbsp;</div><div> <strong>Section:</strong> A</div>
+                            <p><strong>Class:</strong> 12 &nbsp;</p><p> <strong>Section:</strong> A</p>
                         </div>
                     </div>
 

@@ -2,7 +2,7 @@ import React from 'react'
 import '../../App.css'
 
 function AcademicReportsMarks() {
-    // Academic report of Exam (page-12,13,14)
+    // Add Report of Exam (page-29,30,31)
 
     return (
         <div className="academic-reports-marks">

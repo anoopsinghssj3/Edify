@@ -1,13 +1,13 @@
 import React from 'react'
 import '../../App.css'
 
-function AcademicReportsMarks() {
-    // Academic report of Exam (page-12,13,14)
-
+function AddReportofExam() {
     return (
-        <div className="academic-reports-marks">
+        // Add Report of Exam (page-29,30,31)
 
-            <div class="container">
+        <div className="add-report-of-exam">
+
+<div class="container">
                 <div class="card">
                     <div className="sub-card">
                         <a href="#" class="back-arrow">&larr;</a>
@@ -28,7 +28,7 @@ function AcademicReportsMarks() {
                             </tr>
                         </thead>
                         <tbody>
-                            <tr><td>English</td><td>50</td><td>35</td></tr>
+                            <tr><td><input type="text" /> English</td><td>50</td><td>35</td></tr>
                             <tr><td>Hindi</td><td>50</td><td>35</td></tr>
                             <tr><td>Sanskrit</td><td>50</td><td>35</td></tr>
                             <tr><td>Biology</td><td>50</td><td>35</td></tr>
@@ -59,8 +59,8 @@ function AcademicReportsMarks() {
                 <button onclick="window.print()">Print</button>
             </div>
 
-        </div >
+        </div>
     )
 }
 
-export default AcademicReportsMarks
+export default AddReportofExam

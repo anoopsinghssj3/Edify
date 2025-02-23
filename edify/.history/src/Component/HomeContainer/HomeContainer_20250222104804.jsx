@@ -16,7 +16,6 @@ import TakeAttendance from '../../Context/TakeAttendance/TakeAttendance'
 import SelectDateForAttendance from '../../Context/SelectDateForAttendance/SelectDateForAttendance'
 import SelectStudentAddReport from '../../Context/SelectStudentAddReport/SelectStudentAddReport'
 import AddReport from '../../Context/AddReport/AddReport'
-import AddReportofExam from '../../Context/AddReportofExam/AddReportofExam'
 
 function HomeContainer() {
     return (
@@ -38,7 +37,7 @@ function HomeContainer() {
             {/* <TakeAttendance /> */}
             {/* <SelectStudentAddReport/> */}
             {/* <AddReport/> */}
-            <AddReportofExam />
+
         </div>
     )
 }
